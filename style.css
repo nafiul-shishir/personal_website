@@ -15,3 +15,109 @@ h2{
 .blue-highlight{
     color: blueviolet;
 }
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+
+.top-banner{
+    background-image: url("image/header-bg.png");
+    background-repeat: no-repeat;
+}
+
+
+section{
+    height: 590px;
+    padding-bottom:150px ;
+}
+
+.link_button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,blueviolet,darkmagenta);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+        
+}
+
+.biography{
+    background-image: url("image/biography-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.title{
+    text-align: center;
+}
+.work{
+    background-image: url("image/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-top: 2px;
+
+}
+
+.footer{
+    background-image: url("image/footer-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-top: 2px;
+
+}
+
+
+
+.img{
+    width: 25%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 3%;
+}
+
+.img img{
+    width: 100%;
+}
+
+/* This sector is for footer class*/
+
+.footer{
+    text-align: center;
+    background-image: url("image/footer-bg.png");
+}
+
+.footer h4{
+    color: dimgrey;
+}
+
+.footer p{
+    font-size: 20px;
+    font-weight: 660;
+
+}
+
+
+#message{
+    margin-top: 100px;
+    margin-left: 350px;
+    margin-right: 350px;
+    padding: 10px;
+    align-items: center;
+}
+
+footer{
+    margin:200px;
+    padding: 40px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    color: dimgray;
+    
+}
+
